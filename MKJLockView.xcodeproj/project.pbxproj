@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78496B331EF10ADE0080C72B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B321EF10ADE0080C72B /* main.m */; };
+		78496B361EF10ADE0080C72B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B351EF10ADE0080C72B /* AppDelegate.m */; };
+		78496B391EF10ADE0080C72B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B381EF10ADE0080C72B /* ViewController.m */; };
+		78496B3C1EF10ADE0080C72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78496B3A1EF10ADE0080C72B /* Main.storyboard */; };
+		78496B3E1EF10ADE0080C72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78496B3D1EF10ADE0080C72B /* Assets.xcassets */; };
+		78496B411EF10ADE0080C72B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78496B3F1EF10ADE0080C72B /* LaunchScreen.storyboard */; };
+		78496B4C1EF10ADE0080C72B /* MKJLockViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B4B1EF10ADE0080C72B /* MKJLockViewTests.m */; };
+		78496B591EF10B230080C72B /* KKGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B581EF10B230080C72B /* KKGestureLockView.m */; };
+		78496B791EF2184A0080C72B /* MKJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B781EF2184A0080C72B /* MKJView.m */; };
+		78496B7C1EF227830080C72B /* image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78496B7A1EF227830080C72B /* image@3x.png */; };
+		78496B7D1EF227830080C72B /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78496B7B1EF227830080C72B /* image@2x.png */; };
+		78496B821EF25D450080C72B /* KKGestureLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B7F1EF25D450080C72B /* KKGestureLineView.m */; };
+		78496B831EF25D450080C72B /* KKGestureLockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B811EF25D450080C72B /* KKGestureLockItemView.m */; };
+		78496B861EF265200080C72B /* MKJSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B851EF265200080C72B /* MKJSettingViewController.m */; };
+		78496B881EF8C80E0080C72B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78496B871EF8C80E0080C72B /* 3.jpg */; };
+		78496B8B1EF8CAB80080C72B /* MKJTouchIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B8A1EF8CAB80080C72B /* MKJTouchIDManager.m */; };
+		78496B921EF8CFC30080C72B /* MKJTouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78496B901EF8CFC30080C72B /* MKJTouchIDViewController.m */; };
+		78496B931EF8CFC30080C72B /* MKJTouchIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78496B911EF8CFC30080C72B /* MKJTouchIDViewController.xib */; };
+		78496B951EF8CFFB0080C72B /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78496B941EF8CFFB0080C72B /* 5.jpg */; };
+		87EB3DD9DD6BC9D564D173FC /* libPods-MKJLockView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47918AE584E08944242E8C94 /* libPods-MKJLockView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78496B481EF10ADE0080C72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78496B261EF10ADE0080C72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78496B2D1EF10ADE0080C72B;
+			remoteInfo = MKJLockView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47918AE584E08944242E8C94 /* libPods-MKJLockView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKJLockView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFEF8487F56F17C1DA0BA0E /* Pods-MKJLockView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKJLockView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKJLockView/Pods-MKJLockView.release.xcconfig"; sourceTree = "<group>"; };
+		78496B2E1EF10ADE0080C72B /* MKJLockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKJLockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78496B321EF10ADE0080C72B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78496B341EF10ADE0080C72B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78496B351EF10ADE0080C72B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78496B371EF10ADE0080C72B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78496B381EF10ADE0080C72B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78496B3B1EF10ADE0080C72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78496B3D1EF10ADE0080C72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78496B401EF10ADE0080C72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78496B421EF10ADE0080C72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78496B471EF10ADE0080C72B /* MKJLockViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKJLockViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78496B4B1EF10ADE0080C72B /* MKJLockViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKJLockViewTests.m; sourceTree = "<group>"; };
+		78496B4D1EF10ADE0080C72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78496B571EF10B230080C72B /* KKGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLockView.h; sourceTree = "<group>"; };
+		78496B581EF10B230080C72B /* KKGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLockView.m; sourceTree = "<group>"; };
+		78496B771EF2184A0080C72B /* MKJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJView.h; sourceTree = "<group>"; };
+		78496B781EF2184A0080C72B /* MKJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJView.m; sourceTree = "<group>"; };
+		78496B7A1EF227830080C72B /* image@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image@3x.png"; path = "VC/image@3x.png"; sourceTree = "<group>"; };
+		78496B7B1EF227830080C72B /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image@2x.png"; path = "VC/image@2x.png"; sourceTree = "<group>"; };
+		78496B7E1EF25D450080C72B /* KKGestureLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLineView.h; sourceTree = "<group>"; };
+		78496B7F1EF25D450080C72B /* KKGestureLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLineView.m; sourceTree = "<group>"; };
+		78496B801EF25D450080C72B /* KKGestureLockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLockItemView.h; sourceTree = "<group>"; };
+		78496B811EF25D450080C72B /* KKGestureLockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLockItemView.m; sourceTree = "<group>"; };
+		78496B841EF265200080C72B /* MKJSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJSettingViewController.h; sourceTree = "<group>"; };
+		78496B851EF265200080C72B /* MKJSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJSettingViewController.m; sourceTree = "<group>"; };
+		78496B871EF8C80E0080C72B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		78496B891EF8CAB80080C72B /* MKJTouchIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJTouchIDManager.h; sourceTree = "<group>"; };
+		78496B8A1EF8CAB80080C72B /* MKJTouchIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJTouchIDManager.m; sourceTree = "<group>"; };
+		78496B8F1EF8CFC30080C72B /* MKJTouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJTouchIDViewController.h; sourceTree = "<group>"; };
+		78496B901EF8CFC30080C72B /* MKJTouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJTouchIDViewController.m; sourceTree = "<group>"; };
+		78496B911EF8CFC30080C72B /* MKJTouchIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKJTouchIDViewController.xib; sourceTree = "<group>"; };
+		78496B941EF8CFFB0080C72B /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		F2776BD4E2E56147BE5A41AE /* Pods-MKJLockView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKJLockView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKJLockView/Pods-MKJLockView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78496B2B1EF10ADE0080C72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EB3DD9DD6BC9D564D173FC /* libPods-MKJLockView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78496B441EF10ADE0080C72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558831E60CC8DA30011B24A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2776BD4E2E56147BE5A41AE /* Pods-MKJLockView.debug.xcconfig */,
+				6AFEF8487F56F17C1DA0BA0E /* Pods-MKJLockView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		694702081403C5A65BF3DF4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47918AE584E08944242E8C94 /* libPods-MKJLockView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78496B251EF10ADE0080C72B = {
+			isa = PBXGroup;
+			children = (
+				78496B301EF10ADE0080C72B /* MKJLockView */,
+				78496B4A1EF10ADE0080C72B /* MKJLockViewTests */,
+				78496B2F1EF10ADE0080C72B /* Products */,
+				558831E60CC8DA30011B24A8 /* Pods */,
+				694702081403C5A65BF3DF4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78496B2F1EF10ADE0080C72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78496B2E1EF10ADE0080C72B /* MKJLockView.app */,
+				78496B471EF10ADE0080C72B /* MKJLockViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78496B301EF10ADE0080C72B /* MKJLockView */ = {
+			isa = PBXGroup;
+			children = (
+				78496B561EF10AFD0080C72B /* Source */,
+				78496B761EF1191D0080C72B /* VC */,
+				78496B341EF10ADE0080C72B /* AppDelegate.h */,
+				78496B351EF10ADE0080C72B /* AppDelegate.m */,
+				78496B371EF10ADE0080C72B /* ViewController.h */,
+				78496B381EF10ADE0080C72B /* ViewController.m */,
+				78496B3A1EF10ADE0080C72B /* Main.storyboard */,
+				78496B3D1EF10ADE0080C72B /* Assets.xcassets */,
+				78496B3F1EF10ADE0080C72B /* LaunchScreen.storyboard */,
+				78496B421EF10ADE0080C72B /* Info.plist */,
+				78496B771EF2184A0080C72B /* MKJView.h */,
+				78496B781EF2184A0080C72B /* MKJView.m */,
+				78496B7A1EF227830080C72B /* image@3x.png */,
+				78496B7B1EF227830080C72B /* image@2x.png */,
+				78496B941EF8CFFB0080C72B /* 5.jpg */,
+				78496B871EF8C80E0080C72B /* 3.jpg */,
+				78496B311EF10ADE0080C72B /* Supporting Files */,
+			);
+			path = MKJLockView;
+			sourceTree = "<group>";
+		};
+		78496B311EF10ADE0080C72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78496B321EF10ADE0080C72B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78496B4A1EF10ADE0080C72B /* MKJLockViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				78496B4B1EF10ADE0080C72B /* MKJLockViewTests.m */,
+				78496B4D1EF10ADE0080C72B /* Info.plist */,
+			);
+			path = MKJLockViewTests;
+			sourceTree = "<group>";
+		};
+		78496B561EF10AFD0080C72B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				78496B571EF10B230080C72B /* KKGestureLockView.h */,
+				78496B581EF10B230080C72B /* KKGestureLockView.m */,
+				78496B7E1EF25D450080C72B /* KKGestureLineView.h */,
+				78496B7F1EF25D450080C72B /* KKGestureLineView.m */,
+				78496B801EF25D450080C72B /* KKGestureLockItemView.h */,
+				78496B811EF25D450080C72B /* KKGestureLockItemView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		78496B761EF1191D0080C72B /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				78496B841EF265200080C72B /* MKJSettingViewController.h */,
+				78496B851EF265200080C72B /* MKJSettingViewController.m */,
+				78496B891EF8CAB80080C72B /* MKJTouchIDManager.h */,
+				78496B8A1EF8CAB80080C72B /* MKJTouchIDManager.m */,
+				78496B8F1EF8CFC30080C72B /* MKJTouchIDViewController.h */,
+				78496B901EF8CFC30080C72B /* MKJTouchIDViewController.m */,
+				78496B911EF8CFC30080C72B /* MKJTouchIDViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78496B2D1EF10ADE0080C72B /* MKJLockView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78496B501EF10ADE0080C72B /* Build configuration list for PBXNativeTarget "MKJLockView" */;
+			buildPhases = (
+				359D1ABE1AF7F6BFD764D78A /* [CP] Check Pods Manifest.lock */,
+				78496B2A1EF10ADE0080C72B /* Sources */,
+				78496B2B1EF10ADE0080C72B /* Frameworks */,
+				78496B2C1EF10ADE0080C72B /* Resources */,
+				EC1D9AB96F6743ACBB80CCBE /* [CP] Embed Pods Frameworks */,
+				D58F4B754557BDBE3BAEB614 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKJLockView;
+			productName = MKJLockView;
+			productReference = 78496B2E1EF10ADE0080C72B /* MKJLockView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78496B461EF10ADE0080C72B /* MKJLockViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78496B531EF10ADE0080C72B /* Build configuration list for PBXNativeTarget "MKJLockViewTests" */;
+			buildPhases = (
+				78496B431EF10ADE0080C72B /* Sources */,
+				78496B441EF10ADE0080C72B /* Frameworks */,
+				78496B451EF10ADE0080C72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78496B491EF10ADE0080C72B /* PBXTargetDependency */,
+			);
+			name = MKJLockViewTests;
+			productName = MKJLockViewTests;
+			productReference = 78496B471EF10ADE0080C72B /* MKJLockViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78496B261EF10ADE0080C72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mintou;
+				TargetAttributes = {
+					78496B2D1EF10ADE0080C72B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3ELDKSMRMG;
+						ProvisioningStyle = Automatic;
+					};
+					78496B461EF10ADE0080C72B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 78496B2D1EF10ADE0080C72B;
+					};
+				};
+			};
+			buildConfigurationList = 78496B291EF10ADE0080C72B /* Build configuration list for PBXProject "MKJLockView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78496B251EF10ADE0080C72B;
+			productRefGroup = 78496B2F1EF10ADE0080C72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78496B2D1EF10ADE0080C72B /* MKJLockView */,
+				78496B461EF10ADE0080C72B /* MKJLockViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78496B2C1EF10ADE0080C72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78496B411EF10ADE0080C72B /* LaunchScreen.storyboard in Resources */,
+				78496B951EF8CFFB0080C72B /* 5.jpg in Resources */,
+				78496B7C1EF227830080C72B /* image@3x.png in Resources */,
+				78496B7D1EF227830080C72B /* image@2x.png in Resources */,
+				78496B881EF8C80E0080C72B /* 3.jpg in Resources */,
+				78496B3E1EF10ADE0080C72B /* Assets.xcassets in Resources */,
+				78496B931EF8CFC30080C72B /* MKJTouchIDViewController.xib in Resources */,
+				78496B3C1EF10ADE0080C72B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78496B451EF10ADE0080C72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		359D1ABE1AF7F6BFD764D78A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D58F4B754557BDBE3BAEB614 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKJLockView/Pods-MKJLockView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1D9AB96F6743ACBB80CCBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKJLockView/Pods-MKJLockView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78496B2A1EF10ADE0080C72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78496B391EF10ADE0080C72B /* ViewController.m in Sources */,
+				78496B361EF10ADE0080C72B /* AppDelegate.m in Sources */,
+				78496B8B1EF8CAB80080C72B /* MKJTouchIDManager.m in Sources */,
+				78496B831EF25D450080C72B /* KKGestureLockItemView.m in Sources */,
+				78496B921EF8CFC30080C72B /* MKJTouchIDViewController.m in Sources */,
+				78496B821EF25D450080C72B /* KKGestureLineView.m in Sources */,
+				78496B861EF265200080C72B /* MKJSettingViewController.m in Sources */,
+				78496B331EF10ADE0080C72B /* main.m in Sources */,
+				78496B591EF10B230080C72B /* KKGestureLockView.m in Sources */,
+				78496B791EF2184A0080C72B /* MKJView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78496B431EF10ADE0080C72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78496B4C1EF10ADE0080C72B /* MKJLockViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78496B491EF10ADE0080C72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78496B2D1EF10ADE0080C72B /* MKJLockView */;
+			targetProxy = 78496B481EF10ADE0080C72B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78496B3A1EF10ADE0080C72B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78496B3B1EF10ADE0080C72B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78496B3F1EF10ADE0080C72B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78496B401EF10ADE0080C72B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78496B4E1EF10ADE0080C72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78496B4F1EF10ADE0080C72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78496B511EF10ADE0080C72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2776BD4E2E56147BE5A41AE /* Pods-MKJLockView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ELDKSMRMG;
+				INFOPLIST_FILE = MKJLockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikejing.MKJLockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78496B521EF10ADE0080C72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AFEF8487F56F17C1DA0BA0E /* Pods-MKJLockView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ELDKSMRMG;
+				INFOPLIST_FILE = MKJLockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikejing.MKJLockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78496B541EF10ADE0080C72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MKJLockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikejing.MKJLockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKJLockView.app/MKJLockView";
+			};
+			name = Debug;
+		};
+		78496B551EF10ADE0080C72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MKJLockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikejing.MKJLockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKJLockView.app/MKJLockView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78496B291EF10ADE0080C72B /* Build configuration list for PBXProject "MKJLockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78496B4E1EF10ADE0080C72B /* Debug */,
+				78496B4F1EF10ADE0080C72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78496B501EF10ADE0080C72B /* Build configuration list for PBXNativeTarget "MKJLockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78496B511EF10ADE0080C72B /* Debug */,
+				78496B521EF10ADE0080C72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78496B531EF10ADE0080C72B /* Build configuration list for PBXNativeTarget "MKJLockViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78496B541EF10ADE0080C72B /* Debug */,
+				78496B551EF10ADE0080C72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78496B261EF10ADE0080C72B /* Project object */;
+}

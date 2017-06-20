@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zvm-6A-mC0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCN-Mh-TQq">
+                                <rect key="frame" x="132" y="216.5" width="111" height="34"/>
+                                <state key="normal" title="设置手势密码">
+                                    <color key="titleColor" red="1" green="0.24448689630000001" blue="0.16305894970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="setting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gPw-M5-fCs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szf-cL-dYZ">
+                                <rect key="frame" x="132" y="316.5" width="111" height="34"/>
+                                <state key="normal" title="验证手势密码">
+                                    <color key="titleColor" red="1" green="0.24448689630000001" blue="0.16305894970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="verify:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DIs-pM-0BX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFe-m5-Oi0">
+                                <rect key="frame" x="150.5" y="423" width="74" height="34"/>
+                                <state key="normal" title="指纹解锁">
+                                    <color key="titleColor" red="0.30899183829999999" green="0.47756757890000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchIDCLick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iWu-he-h1e"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VCN-Mh-TQq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1RQ-n0-abf"/>
+                            <constraint firstItem="VCN-Mh-TQq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="9B9-7Z-Ilv"/>
+                            <constraint firstItem="lFe-m5-Oi0" firstAttribute="top" secondItem="Szf-cL-dYZ" secondAttribute="bottom" constant="72.5" id="G0Y-wI-zPf"/>
+                            <constraint firstItem="Szf-cL-dYZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QLJ-0o-lYv"/>
+                            <constraint firstItem="lFe-m5-Oi0" firstAttribute="centerX" secondItem="Szf-cL-dYZ" secondAttribute="centerX" id="iOs-fR-9x5"/>
+                            <constraint firstItem="Szf-cL-dYZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qvk-uX-qMY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ezL-SY-d8F"/>
+                    <connections>
+                        <outlet property="settingButon" destination="VCN-Mh-TQq" id="3ns-Te-Pxc"/>
+                        <outlet property="touchIDButton" destination="lFe-m5-Oi0" id="0mS-CP-60o"/>
+                        <outlet property="verifyButton" destination="Szf-cL-dYZ" id="zpC-yk-f9Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="964" y="34.632683658170919"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="H1i-nQ-k6h">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zvm-6A-mC0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CYd-Pk-6Ff">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xwn-C2-1gV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WrV-G7-4SE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77.599999999999994" y="-648.12593703148434"/>
+        </scene>
+    </scenes>
+</document>
